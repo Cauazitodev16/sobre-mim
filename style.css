@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 2em;
     font-weight: bold;
     color: #d40000;
 }
@@ -42,14 +42,80 @@ header a:hover {
 }
 
  section {
-    height: 80vh;
+    min-height: 90vh;
     margin: 2rem;
     scroll-margin-top: 4rem;
     padding: 1rem;
     border: 1px solid #000000;
-    overflow: hidden;
+    /*overflow: hidden; */
+}
+
+section#formacaoAcademica, #meusArtigos, #softSkills, #hardSkills {
+    border: none;
 }
 
 p {
     margin-bottom: 1rem;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: .25rem  .75rem;
+    color: rgb(197, 10, 10);
+    resize: none;
+}
+
+.card {
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0.3);
+    list-style: none;
+}
+
+.titulo.card {
+    font-weight: bold;
+    color:#ff0000;
+    font-size: 1.3rem;
+} 
+
+.intituicao.card {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.cards-em-coluna{
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cards-em-linha {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.titulo-secao{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+
+input[type="submit"] {
+    background-color:rgb(0, 0, 0);
+    color:#ff0000;
+    padding: .25rem .75rem;
+}
+
