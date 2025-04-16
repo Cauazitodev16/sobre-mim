@@ -46,7 +46,7 @@ header a:hover {
     margin: 2rem;
     scroll-margin-top: 4rem;
     padding: 1rem;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000; */
     /*overflow: hidden; */
 }
 
