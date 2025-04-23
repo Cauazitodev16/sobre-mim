@@ -1,87 +1,270 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-theme="dark">
     <head>
         <!-- Meta informações sobre a página -->
          <meta charset="utf-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0"
-         <title>Sobre mim</title>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title></title>
+         <link rel="stylesheet" href="reset.css">
+         <link rel="stylesheet" href="style.css">
+         <style>
+            /*seletor {
+                propriedade: valor;
+            }  */
+
+            
+
+           
+
+            
+         </style>
     </head>
     <!-- HTML NÃO TEM PESCOÇO, SEU OREIUDO! -->
     <body>
-        <section>
-            </ul>
+        <header>
+            <nav>
+            <ul>
                  <li><a href="#sobreMim">Sobre mim</a></li>
                  <li><a href="#formacaoAcademica">Formação acadêmica</a></li>
                  <li><a href="#hardSkills">Hard skills</a></li>
                  <li><a href="#softSkills">Soft skills</a></li>
                  <li><a href="#meusProjetos">Meus projetos</a></li>
                  <li><a href="#meusArtigos">Meus artigos</a></li>
-             </ul> 
+                 <li><a href="#contato">Contato<a></li>
+                  <li><span id="botao-tema">☀️</span></li>
+                  <li><span id="botao-contraste">Contraste</span></li>
+             </ul>
+            </nav> 
+            
         </header>    
 
         <section>
 
         <section id="sobreMim">
         <h1>Sobre mim</h1>
-        <p>Meu nome é Cauã, tenho 16 anos, nasci em São Paulo no dia 22 de outubro de 2008.</p>
-        <img src="Cauãzito.jpg" alt="Homem branco de bigode gigante e marrom, com oculos pretos com cara de irritado." width="200" height="200" title="Homem branco de bigode gigante e marrom, com oculos pretos com cara de irritado.">
-        
-        
-    </section>
+        <ul class="card">
 
-    <section id="formacaoAcademica">
-        <h2>Formação acadêmica</h2>
-        <p>Estudante no SESI-402 Vila das Mercês, cursando Ánalise e Desenvolvimento de sistemas (TI) no SENAI do ipiranga</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos deserunt animi explicabo officiis veniam, reprehenderit minus praesentium! Nesciunt voluptas similique mollitia, at itaque nemo voluptate dolores recusandae. Minima mollitia aut voluptatum? Et quo sint dolorum possimus veritatis omnis aspernatur repudiandae error. Deleniti, nostrum corrupti possimus aspernatur modi illum sequi.</p>
+            <p>Meu nome é Cauã, tenho 16 anos, nasci em São Paulo no dia 22 de outubro de 2008.</p>
+            <img src="Cauãzito.jpg" alt="Homem branco de bigode gigante e marrom, com oculos pretos com cara de irritado." width="200" height="200" title="Homem branco de bigode gigante e marrom, com oculos pretos com cara de irritado.">
+            
+        </ul>
+        
     </section>
+    
+    <section id="formacaoAcademica">
+        <h2>Formação academica</h2>
+        
+        <ul class="card">
+
+            
+            <li class="instituicao-card">Estudante no SESI-402 Vila das Mercês, cursando Ánalise e Desenvolvimento de sistemas (TI) no SENAI do ipiranga
+                pretendendo trabalhar em uma área voltada para programação de jogos, seja em uma empresa própria ou em uma ja existente</li>
+            </ul>
+            </section>
 
     <section id="hardSkills">
     <h2>Hard skills</h2>
-    <p>Programação</p>
-    </section>
+    <ul class="card">
 
-    <section id="softSkills">
-        <h2>Soft skills</h2>
-        <p>Empatia</p>
-        <p>Controle emocional</p>
-    </section>
+        <li class="hardSkills">Programação</li>
+        <li class="hardSkills">Criação de memes</li>
+        <li class="hardSkills">Digito ágil em computadores</li>
+    </ul>
+</section>
+<section id="softSkills">
+
+    <h2 class="titulo-secao">Soft skills</h2>
+
+    <div class="cards-em-linha">
+
+        <ul class="card">
+            <li class="icone-card">🤝</li>
+            <li class="titulo-card">Trabalho em equipe</li>
+        </ul>
+
+        <ul class="card">
+            <li class="icone-card">🧠</li>
+            <li class="titulo-card">Pensamento crítico</li>
+        </ul>
+
+        <ul class="card">
+            <li class="icone-card">🤔</li>
+            <li class="titulo-card">Resolução de problemas</li>
+        </ul>
+
+        <ul class="card">
+            <li class="icone-card">🐙</li>
+            <li class="titulo-card">Adaptabilidade</li>
+        </ul>
+
+        <ul class="card">
+            <li class="icone-card">📚</li>
+            <li class="titulo-card">Aprendizado contínuo</li>
+        </ul>
+
+        <ul class="card">
+            <li class="icone-card">⏱️</li>
+            <li class="titulo-card">Autogestão</li>
+        </ul>
+
+    </div>
+
+</section>
+    
+        
 
     <section id="meusProjetos">
-    <footer>
+    
 
         <h2>Meus projetos</h2>
-        
-        <ul>
-            <li>
-                
-                
-                <a href="https://cauazitodev16.github.io/lopal-moonlander/">Jogo de Alunissagem (Pouso na Lua)</a>
-                
-            </li>
+        <ul class="card">
+
+            
+            <ul>
+                <li>
+                    <br>
+                    <a href="https://suno.com/song/db0a1a29-5080-4220-a4e6-e7da01012554?sh=2gMR6NpigBSYQq3A"> Musica com auxilio de IA (SUNO.IA) </a>
+                    <br>
+                    <br>
+                    <a href="https://cauazitodev16.github.io/lopal-moonlander/">Jogo de Alunissagem (Pouso na Lua)</a>
+                    
+                </li>
+            </ul>
         </ul>
     </footer>
     </section>
     
     <section id="meusArtigos">
-        <h2>Meus artigos</h2>
+        <h2 class="titulo-secao">Meus artigos</h2>
+
+        <div class="cards-em-linha"> <!-- Contêiner dos cards (em linha) -->
+
+            <ul class="card">
+
+                
+                <header>
+                    <h3 class="titulo-card">Portfólio profissional usando GitHub Pages</h3>
+                    <span class="data-publicacao-card">15 abr 2025</span>
+                    <span class="autor-card">Cauã</span>
+                </header>
+                
+                <p>Crie e publique seu portfólio profissional usando GitHub Pages, uma maneira fácil e gratuita de mostrar seus projetos e habilidades.</p>
+            </ul>
+
+            
+        </article>
+
+    </section>
+
+    <section id="principais programas">
+    <h2 class="titulo-secao">Principais Programas</h2>
+    <div class="cards-em-linha">
+                
+            <ul class="card">
+                <li class="icone-card">🐍</li>
+                <li class="titulo-card">Python</li>
+                <li class="descricao-card">Full stack, Flask, FastAPI</li>
+            </ul>
+
+            <ul class="card">
+                <li class="icone-card">🌐</li>
+                <li class="titulo-card">Desenvolvimento Web</li>
+                <li class="descricao-card">Front-end, HTML, CSS, JavaScript</li>
+            </ul>
+
+            <ul class="card">
+                <li class="icone-card">📱</li>
+                <li class="titulo-card">Desenvolvimento Mobile</li>
+                <li class="descricao-card">Kotlin, Android Studio, Jetpack Compose</li>
+            </ul>
+
+            <ul class="card">
+                <li class="icone-card">🎲</li>
+                <li class="titulo-card">Análise de Dados</li>
+                <li class="descricao-card">MySQL, Power BI</li>
+            </ul>
+
+            <ul class="card">
+                <li class="icone-card">🧪</li>
+                <li class="titulo-card">Testes de Software</li>
+                <li class="descricao-card">JUnit, Cypress</li>
+            </ul>
+
+            <ul class="card">
+                <li class="icone-card">🧾</li>
+                <li class="titulo-card">Microsoft 365</li>
+                <li class="descricao-card">Word, Excel, PowerPoint</li>
+            </ul>
+
+        </div>
+
     </section>
     
     <footer>
-         <p>Links úteis</p>
-         <ul>
-            <li>
-                <a href="https://github.com/Cauazitodev16" target="_blank">Acesse o meu GitHub</a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/in/cau%C3%A3zito/">Acesse o meu LinkedIn</a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/cauazito16/?next=%2F">Acesse o meu Instagram</a>
-        </li>
-        </ul>
-         <h2>Copyright</h2>
-         <p>Desenvolvido por Cauã, sujeito a processo se for copiado</p>
+         <h2>Links úteis</h2>
+         <ul class="card">
+
+             <ul>
+                 <li>
+                     <a href="https://github.com/Cauazitodev16" title="clique para acessar o meu GitHub" target="_blank">Acesse o meu GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/cau%C3%A3zito/">Acesse o meu LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/cauazito16/?next=%2F">Acesse o meu Instagram</a>
+                    </li>
+                </ul>
+            </ul>
+        <section>
+
+            <section id="contato">
+                <h2>Entre em contato comigo</h2>
+                <form>
+                    <input type="text" name="nome">
+                    <input type="email" name="email">
+                    <textarea name="mensagem" rows="5" cols="50"></textarea>
+                    <!-- <input type="submit" name="botaoEnviar" value="Solicitar contato"> -->
+                    <input type="submit" name="botaoEnviar" value="Solicitar contato">
+                    <form>
+            </section>
+
+
+                    <br>
+                    <br>
+                
+                    &copy Desenvolvido por Cauã, sujeito a processo se for copiado
+            
+        </section>
+
 
     <footer>
         
+        <script>
+            document.querySelector('#botao-tema').addEventListener('click', trocaTema);
+
+            function trocaTema(){
+                const root = document.documentElement;
+
+                if (root.getAttribute('data-theme')=== 'dark'){
+                    root.removeAttribute('data-theme');
+                }else {
+                    root.setAttribute('data-theme', 'dark');
+                }
+            }
+
+            document.querySelector('#botao-contraste').addEventListener('click', trocaTemaContraste);
+
+            function trocaTemaContraste(){
+                const root = document.documentElement;
+
+                if (root.getAttribute('data-theme') === 'alto-contraste'){
+                    root.removeAttribute('data-theme');
+                } else {
+
+                }
+            }
+        </script>
     </body>
 </html>
